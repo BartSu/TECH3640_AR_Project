@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="forest_cylinder" sideLength="2.970000"/>
+        <ImageTarget name="wolf_and_three_little_pigs" size="1.000000 0.562500"/>
+        <ImageTarget name="forest" size="1.000000 1.000000"/>
+        <ImageTarget name="forest_flat" size="1.000000 0.654292"/>
+        <ImageTarget name="tiger" size="1.000000 1.001669"/>
+        <ImageTarget name="pig" size="1.000000 0.998333"/>
+        <ImageTarget name="ox" size="1.000000 1.000000"/>
+        <ImageTarget name="goat" size="1.000000 1.000000"/>
+        <ImageTarget name="duck" size="1.000000 1.000000"/>
+        <ImageTarget name="chiken" size="1.000000 0.998333"/>
+        <ImageTarget name="animal.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="animal.Left" size="1.000000 0.998333"/>
+        <ImageTarget name="animal.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="animal.Top" size="1.000000 1.001669"/>
+        <ImageTarget name="animal.Front" size="1.000000 0.998333"/>
+        <ImageTarget name="animal.Back" size="1.000000 1.000000"/>
+        <MultiTarget name="animal">
+            <Part name="animal.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="animal.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="animal.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="animal.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="animal.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="animal.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="wolf" size="1.000000 0.845857" />
+    <ImageTarget name="pig_stick_house" size="1.000000 0.483423" />
+    <ImageTarget name="pig_wood_house" size="1.000000 0.958991" />
+    <ImageTarget name="pig_brick_house" size="1.000000 0.866873" />
+  </Tracking>
+</QCARConfig>
